@@ -27,6 +27,7 @@ public class HelloMessageListener {
 //        пример ->example3.png
 
 
+
         // uncomment and view to see retry count in debugger
        // throw new RuntimeException("foo");
 
