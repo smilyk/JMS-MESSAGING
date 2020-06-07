@@ -10,7 +10,9 @@
 
 
     -config.TaskConfig
-    
+4.Настраиваем конвертер сообщений с сообщениями JMS:
+
+    - config.JSMConfig
 
     
     
