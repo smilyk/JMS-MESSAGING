@@ -8,15 +8,33 @@
 		<version>2.1.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>guru.springframework</groupId>
-	<artifactId>sfg-jms</artifactId>
+	<groupId>smilyk</groupId>
+	<artifactId>jms-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sfg-jms</name>
-	<description>Example JMS</description>
+	<name>jms-example</name>
+	<description>Project example of JMS</description>
 
 	<properties>
 		<java.version>11</java.version>
 	</properties>
+
+	<licenses>
+		<license>
+			<name>GNU General Public License v3.0</name>
+			<url>https://www.gnu.org/licenses/gpl.txt</url>
+		</license>
+	</licenses>
+
+	<organization>
+		<name>smilyk`s Team</name>
+	</organization>
+
+	<developers>
+		<developer>
+			<name>smilyk</name>
+			<organization>smilyk`s Team</organization>
+		</developer>
+	</developers>
 
 	<dependencies>
 		<dependency>
