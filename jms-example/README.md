@@ -1,4 +1,7 @@
-#
+#JSM MESSAGE EXAMPLE 
+using Attemis Active MQ (by docker)
+
+
 1 .Создаем POJO объект, который будет использоваться для отправки сообщений:
    
     - model.HelloWorldMessage
