@@ -28,7 +28,7 @@ public class HelloSender {
 //        5.1
         System.out.println("I am sending message");
 //        если сейчас запустить приложение - то мы увидим, что каждые 2 сек есть сообщение "I am sending message"
-//        пример -> example1
+//        пример -> example1.png
 
 //        5.2
 //        строим сообщение, которое хотим отправить
@@ -43,7 +43,7 @@ public class HelloSender {
         System.out.println("Message sent!");
 //        если сейчас запустить приложение - то мы увидим, что каждые 2 сек есть сообщение "I am sending message",
 //        а после него - сообщение "Message sent!"
-//        пример -> example2
+//        пример -> example2.png
 
     }
 

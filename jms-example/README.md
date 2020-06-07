@@ -19,6 +19,12 @@
     - config.JSMConfig -> даем имя очереди
     - sender.HelloSender
     
+6. установливаем компонент, который будет слушать все сообщения:
+
+
+    - listener.HelloMessageListener
+    - sender.HelloSender
+    
     
 
 
