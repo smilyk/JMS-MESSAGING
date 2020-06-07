@@ -16,7 +16,7 @@ import javax.jms.Message;
 import java.util.UUID;
 
 @RequiredArgsConstructor
-@Component
+//@Component
 public class HelloMessageListener {
     //    7
     private final JmsTemplate jmsTemplate;

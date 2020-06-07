@@ -44,6 +44,22 @@
     - artemis / 
     
     * https://github.com/vromero/activemq-artemis-docker
+    
+9 . использование Attemis Active MQ:
+
+     1. комментируем ActiveMQServer server = ActiveMQServers.newActiveMQServer(new ConfigurationImpl()
+                     //                .setPersistenceEnabled(false)
+                     //                .setJournalDirectory("/target/data/journal")
+                     //                .setSecurityEnabled(false)
+                     //                .addAcceptorConfiguration("invm", "vm://0")
+                     //        );
+                     //        server.start();
+        в main
+      2. application.properties добавить имя/пароль для activeMQ
+      3.запускаем приложение -> example4 видим что все работает
+      4.в консоли activeMQ появляется две наших очереди ->example5
+      5. комментируем @Component в listener.HelloMessageListiner
+      6. запускаем и находим кучу настроек в консоли ActiveMQ
    
     
     
