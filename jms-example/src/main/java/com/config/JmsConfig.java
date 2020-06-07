@@ -11,7 +11,8 @@ public class JmsConfig {
 
 //    даем имя очереди
     public static final String MY_QUEUE = "my-hello-world";
-
+//    вторая очередь
+    public static final String MY_SEND_RCV_QUEUE = "replybacktome";
     @Bean
     public MessageConverter messageConverter(){
         MappingJackson2MessageConverter converter = new MappingJackson2MessageConverter();
